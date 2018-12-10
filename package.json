@@ -1,0 +1,12 @@
+{
+  "name": "pizza-test-workshop",
+  "version": "1.0.0",
+  "description": "pizza-test-workshop",
+  "main": "pizza.spec.js",
+  "scripts": {
+    "e2e": "testcafe chrome pizza.spec.js --speed 1 --screenshots ./screenshots --screenshots-on-fails",
+    "e2e:headless": "testcafe chrome:headless pizza.spec.js --speed 1 --screenshots ./screenshots --screenshots-on-fails"
+  },
+  "author": "",
+  "license": "ISC"
+}
